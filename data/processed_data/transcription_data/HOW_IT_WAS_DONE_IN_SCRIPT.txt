@@ -1,0 +1,19 @@
+1. read in file from original data
+
+2. remove after the . of the atg codes in order to begin with a summarization 
+
+3. start with creating a mapping by giving each name a identifier number
+	fill mapping object according to this mapping 
+	convert the numeric data array to be able to aggregate it 
+
+4. aggregate 
+
+5. exchange the identifier numbers with the original codes 
+
+6. name header ( use this part if you want to get dev for transcript ratios,ultfinal2)
+
+7. pool replicates of each timepoint and condition(wt or mt) 
+
+8. name and save as 'final_pooled.x' - THIS IS WHAT ONE HAS TO USE 
+
+(9). calculate ratio if needed 

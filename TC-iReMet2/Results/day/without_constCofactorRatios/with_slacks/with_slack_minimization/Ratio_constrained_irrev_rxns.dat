@@ -1,0 +1,257 @@
+PSII_h	photosystem II
+Cytb6f_h	cytochrom b6f complex
+PSI_h	photosystem I
+Fd-NADPR_h	ferredoxin-NADP reductase
+RBC_h	RuBisCO
+GAPDH1_h	GAP dehydrogenase
+FBPase_h	FBPase
+SBPA_h	SBP aldolase
+SBPase_h	SBPase
+Ru5PK_h	Ru5P kinase
+AGPase_h	G1P adenylyltransferase
+StS_h1	starch synthase
+StS_h2	starch synthase
+StS_h3	starch synthase
+bAMY1_h	amylase
+bAMY2_h	amylase
+DPE11_h	disproportionating enzyme
+DPE12_h	disproportionating enzyme
+DPE13_h	disproportionating enzyme
+DPE2_c	disproportionating enzyme
+HEXK_c	Hexokinase
+StP1_h	(starch) phosphorylase
+StP21_c	(starch) phosphorylase
+FBPase_c	FBPase
+F6PK2_c	F6P kinase
+S6PS_c	S6P synthase
+S6PPh_c	S6P phosphorylase
+FrcFD_c	Fructofuranosidase
+FrcK_c	Fructokinase
+TPS_c	UDPG:G6P glucosyltransferase
+TPP_c	Tre phosphatase
+CeS_c1	cellulose synthase
+CeS_c2	cellulose synthase
+CeS_c3	cellulose synthase
+PEPC1_c	PEP carboxylase
+GAPDH3_c	GAP dehydrogenase
+F6PK1_c	6-Phosphofructokinase
+F6PK1_h	6-Phosphofructokinase
+PyrK_c	Pyr kinase
+PyrK_h	Pyr kinase
+PyrDH1_m	Pyr dehydrogenase
+PyrDH2_m	Pyr dehydrogenase
+DHLAcT_m	DHL acetyltransferase
+DHLDH2_m	DHL dehydrogenase
+CitS_m	Cit synthase
+cACNDHA_m	Aconitase dehydration
+cACNHA_m	Aconitase hydration
+iCitDHNAD_m	iCit dehydrogenase
+KGDH_m	KG dehydrogenase
+DHLST_m	DHL succinyltransferase
+SCACoAL_m	SCA-CoA ligase
+cplx2_m	SCA dehydrogenase (Q)
+FumHA_m	Fum hydratase
+cplx1_m	NADH dehydrogenase (Q)
+cplx3_m	Cytc reductase
+cplx4_m	Cytc oxidase
+RBO_h	RuBisCO
+PGP_h	PGCA phosphorylase
+GCAO_p	GCA oxidase
+CAT_p	Catalase
+GGAT_p	Glu:GLX aminotransferase
+GlyDH_m	Gly dehydrogenase
+AMT_m	Aminomethyltransferase
+DHLDH1_m	DHL dehydrogenase
+SGAT_p	Ser:GLX aminotransferase
+GCEADH_p	GCEA dehydrogenase
+GCEAK_h	GCEA kinase
+G6PDH_h	G6P dehydrogenase
+6PGL_h	6-Phosphogluconolactonase
+DAHPS_h	DAHP synthase
+DHQS_h	DHQ synthase
+DHQDH_h	DHQ dehydratase
+SADH_h	SA dehydrogenase
+SAK_h	SA kinase
+EPSPS_h	EPSP synthase
+CHRS_h	CHR synthase
+R5PDPK_h	R5P diphosphokinase
+MalDH2NADP_c	Mal dehydrogenase
+MalDH2NADP_h	Mal dehydrogenase
+MalDH3_c	Mal dehydrogenase
+MalDH3_h	Mal dehydrogenase
+MalDH3_m	Mal dehydrogenase
+CitS_c	Cit synthase
+CitS_h	Cit synthase
+cACNDHA_c	Aconitase dehydration
+cACNDHA_h	Aconitase dehydration
+cACNHA_c	Aconitase hydration
+cACNHA_h	Aconitase hydration
+iCitDHNAD_c	iCit dehydrogenase
+iCitDHNADP_c	iCit dehydrogenase
+iCitDHNADP_h	iCit dehydrogenase
+iCitDHNADP_m	iCit dehydrogenase
+iCitL_c	iCit lyase
+MalS_c	Mal synthase
+ATPCitL_c	ATP-Cit lyase
+ACoAS_h	A-CoA synthetase
+ACoAC_h	A-CoA carboxylase
+ACPM_h	M-CoA:ACP malonyltransferase
+PPiase_h	inorganic PPiase
+PPIase_c	inorganic PPiase
+PPIF6PK_c	PPi-dep.  Phosphofructokinase
+ForTHFL_h	For-THF ligase
+DHFR_c	Dihydrofolate reductase
+TRXR_c	Thioredoxin reductase
+ADNK_c	ADN kinase
+ADNN_c	ADN nucleosidase
+ADPRPPT_c	AD PRPP-transferase
+RibK_h	Ribokinase
+NO3R1_c	NO3 reductase
+NO2R_h	Fd-NO2 reductase
+ATPSL_h	ATP sulfurylase
+APSR_h	APS reductase
+GSSGR_h	GSSG reductase
+SO3R_h	SO3 reductase
+HCO3DHA_c	HCO3 dehydratase
+HCO3DHA_h	HCO3 dehydratase
+AGluK	A-Glu kinase
+AGluPR_h	A-GluP reductase
+AOrnTA_h	A-Orn transaminase
+AOrnAGluAcT_h	A-Orn:A-Glu acetyltransferase
+CBPS_h	CBP synthase
+ArgSCAS_h	Arg-SCA synthase
+ArgSCAL_h	Arg-SCA lyase
+FumHA_c	Fum hydratase
+AsnS_c	Asn synthase
+Asnase_c	Asnase
+SerAcT_c	Ser O-acetyltransferase
+SerAcT_h	Ser O-acetyltransferase
+SerAcT_m	Ser O-acetyltransferase
+CysS_c	Cys synthase
+CysS_h	Cys synthase
+CysS_m	Cys synthase
+Glnase_c	Glnase
+GluSNAD_h	Glu synthase
+GluSFd_h	Glu synthase (FeS-Fd)
+GluDH1NAD_m	Glu dehydrogenase
+GluDH2NAD_m	Glu dehydrogenase
+GluDC_c	Glu decarboxylase
+GABATA2_m	GABA transaminase
+SCASeADH_m	SCA-SeA dehydrogenase
+GlnS_c	Gln synthetase
+GlnS_h	Gln synthetase
+GlnS_m	Gln synthetase
+ThrA_c	Thr aldolase
+ACDOxRed_c	ACD oxidoreductase
+GCAO_h	GCA oxidase
+CAT_h	Catalase
+SGAT_h	Ser:GLX aminotransferase
+GCEADH_h	GCEA dehydrogenase
+GGAT_h	Glu:GLX aminotransferase
+ATPPRT_h	ATP PR-transferase
+PrATPDP_h	Pr-ATP diphosphatase
+PrAMPCy_h	Pr-AMP cyclohydrolase
+PAICARPI_h	P-AICAR-P isomerase
+IGPS_h	ImGP synthase
+IGPDA_h	ImGP dehydratase
+HisolPTA_h	Hisol-P transaminase
+HisolPP_h	Hisol-P phosphatase
+HisolPDH_h	Hisol-P dehydrogenase
+HisalPDH_h	Hisal-P dehydrogenase
+ThrDA_h	Thr dehydratase
+ALS1_h	AL synthase
+ALS2_h	AL synthase
+KARI2_h	Ketol-acid reductoisomerase
+DHADA1_h	DH-acid dehydratase
+ALS3_h	AL synthase
+KARI4_h	Ketol-acid reductoisomerase
+DHADA2_h	DH-acid dehydratase
+2IPMS_h	2-IPM synthase
+3IPMDA1_h	3-IPM dehydratase
+3IPMDA2_h	3-IPM dehydratase
+3IPMDH_h	3-IPM dehydrogenase
+AspK_h	Asp kinase
+Asp-SeADH_h	Asp-SeA dehydrogenase
+DHDS_h	DHD synthase
+DHDRNAD_h	DHD reductase
+DHDRNADP_h	DHD reductase
+DAPAT_h	DAP aminotransferase
+DAPE_h	DAP epimerase
+DAPDC_h	DAP decarboxylase
+HSerDHNADP_h	H-Ser dehydrogenase
+HSerDHNAD_h	H-Ser dehydrogenase
+HSerK_h	H-Ser kinase
+CTHS_h	CTH synthase
+CTHL_h	CTH beta-lyase
+5M-THFOR_c	5M-THF oxidoreductase
+MetS_c	Met synthase
+MetAdT_h	Met adenosyltransferase
+HCysMT_c	H-Cys S-Met-transf.
+CHRM_c	CHR mutase
+AGNDA_h	AGN dehydratase
+Arginase_m	Arginase
+Urease_m	Urease
+GluK_c	Glu kinase
+GluK_h	Glu kinase
+GluK_m	Glu kinase
+GluSeADH_c	GluSeA dehydrogenase
+GluSeADH_h	GluSeA dehydrogenase
+GluSeADH_m	GluSeA dehydrogenase
+P5CRNAD_c	P5C reductase
+ProDHNAD_m	Pro dehydrogenase
+ProDHNADP_m	Pro dehydrogenase
+P5CDHNAD_h	P5C dehydrogenase
+P5CDHNAD_m	P5C dehydrogenase
+P5CDHNADP_m	P5C dehydrogenase
+PSerAT_h	PSer aminotransferase
+PSerP_h	PSer phosphatase
+SerRM_c	Ser racemase
+ThrS_h	Threonine synthase
+ANTS_h	ANT synthase
+ANTPRT_h	ANT PR-transferase
+PRANTI_h	PR-ANT isomerase
+IndGPS_h	Ind-GP synthase
+IndGPL_h	Ind-GP lyase
+TrpS_h	Trp synthase
+AGNDH_h	AGN dehydrogenase
+ATase_h	ATase
+PRAGlyL_h	PRA-Gly ligase
+GARFT_h	GAR formyltransferase
+FGAMS_h	FGAM synthase
+FGAMCL_h	FGAM cyclo-ligase
+AIRC_h	AIR carboxylase
+SAICARS_h	SAICAR synthase
+DCAMPL1_h	Adenylo-SCA lyase
+AICARFT_h	AICAR formyltransferase
+IMPCH_h	IMP cyclohydrolase
+AMPDA_c	AMP deaminase
+IMPDH_c	IMP dehydrogenase
+GMPS_c	GMP synthase
+DCAMPS_h	Adenylo-SCA synthase
+DCAMPL2_h	Adenylo-SCA lyase
+AspCT_h	Asp carbamoyltransferase
+DHOase_h	DHOase
+DHODH_m	DHO dehydrogenase
+OROPRT_c	ORO PR-transferase
+OMPDC_c	OMP decarboxylase
+CTPS_c	CTP synthase
+AMPK_c	adenylate kinase
+AMPK_h	adenylate kinase
+GMPK_c	guanylate kinase
+NMPK_c	UMP/CMP kinase
+CTPP_c	Nucleoside-triphosphatase
+ADPR_c	Ribonucleoside-diphosphate reductase
+CDPR_c	Ribonucleoside-diphosphate reductase
+GDPR_c	Ribonucleoside-diphosphate reductase
+UDPR_c	Ribonucleoside-diphosphate reductase
+dUTPP_c	Deoxyuridine-triphosphatase
+dTMPS_c	Thymidylate synthase
+dTMPK_c	Thymidine monophosphate kinase
+GDPK_c	Nucleoside-diphosphate kinase
+GDPK_h	Nucleoside-diphosphate kinase
+UDPK_c	Nucleoside-diphosphate kinase
+dADPK_c	Nucleoside-diphosphate kinase
+dCDPK_c	Nucleoside-diphosphate kinase
+dGDPK_c	Nucleoside-diphosphate kinase
+dTDPK_c	Nucleoside-diphosphate kinase
+dUDPK_c	Nucleoside-diphosphate kinase

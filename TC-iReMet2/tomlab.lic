@@ -1,0 +1,8 @@
+# TOMLAB license: 4001002
+# Created: 2015-07-08
+#
+LICENSE_INFO licnum: 4001002; company: Max Planck; lictype: Ac. department; tusc: 2016-07-08; expr: 2100-01-01; os: Linux 64-bit; tl: 21019101; packages: /MINOS + /SNOPT + /CPLEX Full; key1: c29fe7ef; key2: c969c785;
+TOMLAB_BASE licnum: 4001002; tusc: 2016-07-08; expr: 2100-01-01; secgen: 0; os: lnx64; hostname: ANY; hostid: ANY; username: ANY; matlablicnr: 862700; key1: 73162177; key2: c6f48a35;
+TOMLAB_MINOS licnum: 4001002; tusc: 2016-07-08; expr: 2100-01-01; secgen: 0; os: lnx64; hostname: ANY; hostid: ANY; username: ANY; matlablicnr: 862700; key1: 20b4b9fa; key2: 6b53f049;
+TOMLAB_SNOPT licnum: 4001002; tusc: 2016-07-08; expr: 2100-01-01; secgen: 0; os: lnx64; hostname: ANY; hostid: ANY; username: ANY; matlablicnr: 862700; key1: a77bc56d; key2: 29e1f9d1;
+TOMLAB_CPLEX cpxlic: full; licnum: 4001002; tusc: 2016-07-08; expr: 2100-01-01; secgen: 0; os: lnx64; hostname: ANY; hostid: ANY; username: ANY; matlablicnr: 862700; key1: d785dc55; key2: caa64898;

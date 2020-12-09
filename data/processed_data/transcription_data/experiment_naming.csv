@@ -1,0 +1,24 @@
+Col-0;mature leaf;non-acclimated;Exp1;1;wt_0;;Col-0.L.0.1
+Col-0;mature leaf;non-acclimated;Exp1;2;wt_0;;Col-0.L.0.2
+Col-0;mature leaf;non-acclimated;Exp1;3;wt_0;;Col-0.L.0.3
+reil1-1 reil2-1;mature leaf;non-acclimated;Exp1;1;dko_0;;reil1-1reil2-1.L.0.1
+reil1-1 reil2-1;mature leaf;non-acclimated;Exp1;2;dko_0;;reil1-1reil2-1.L.0.2
+reil1-1 reil2-1;mature leaf;non-acclimated;Exp1;3;dko_0;;reil1-1reil2-1.L.0.3
+Col-0;mature leaf;1 day;Exp1;1;wt_1;;Col-0.L.1.1
+Col-0;mature leaf;1 day;Exp1;2;wt_1;;Col-0.L.1.2
+Col-0;mature leaf;1 day;Exp1;3;wt_1;;Col-0.L.1.3
+reil1-1 reil2-1;mature leaf;1 day;Exp1;1;dko_1;;reil1-1reil2-1.L.1.1
+reil1-1 reil2-1;mature leaf;1 day;Exp1;2;dko_1;;reil1-1reil2-1.L.1.2
+reil1-1 reil2-1;mature leaf;1 day;Exp1;3;dko_1;;reil1-1reil2-1.L.1.3
+Col-0;mature leaf;7 days;Exp1;1;wt_7;;Col-0.L.7.1
+Col-0;mature leaf;7 days;Exp1;2;wt_7;;Col-0.L.7.2
+Col-0;mature leaf;7 days;Exp1;3;wt_7;;Col-0.L.7.3
+reil1-1 reil2-1;mature leaf;7 days;Exp1;1;dko_7;;reil1-1reil2-1.L.7.1
+reil1-1 reil2-1;mature leaf;7 days;Exp1;2;dko_7;;reil1-1reil2-1.L.7.2
+reil1-1 reil2-1;mature leaf;7 days;Exp1;3;dko_7;;reil1-1reil2-1.L.7.3
+Col-0;mature leaf;21 days;Exp1;1;wt_21;;Col-0.L.21.1
+Col-0;mature leaf;21 days;Exp1;2;wt_21;;Col-0.L.21.2
+Col-0;mature leaf;21 days;Exp1;3;wt_21;;Col-0.L.21.3
+reil1-1 reil2-1;mature leaf;21 days;Exp1;1;dko_21;;reil1-1reil2-1.L.21.1
+reil1-1 reil2-1;mature leaf;21 days;Exp1;2;dko_21;;reil1-1reil2-1.L.21.2
+reil1-1 reil2-1;mature leaf;21 days;Exp1;3;dko_21;;reil1-1reil2-1.L.21.3

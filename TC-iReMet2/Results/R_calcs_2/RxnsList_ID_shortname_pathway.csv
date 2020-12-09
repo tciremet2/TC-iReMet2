@@ -1,0 +1,549 @@
+1	PSII_h	photosystem II	light reactions	light reactions	light reactions
+2	Cytb6f_h	cytochrom b6f complex	light reactions	CBC	A-CoA synthesis
+3	PSI_h	photosystem I	light reactions	glycolysis	ADN salvage
+4	Fd-NADPR_h	FNR	light reactions	PPP	Ala synthesis
+5	ATPase_h	ATPase	light reactions	starch synthesis	AMP synthesis
+6	RBC_h	RuBisCO	CBC	starch degradation	Arg synthesis
+7	PGAK_h	PGA kinase	CBC, glycolysis	Suc degradation	Asp synthesis
+8	GAPDH1_h	GAP dehydrogenase	CBC	Suc synthesis	biomass reaction
+9	TPI_h	TP isomerase	CBC, glycolysis	gluconeogenesis	carbon fixation
+10	FBPA_h	FBP aldolase	CBC, glycolysis	PPi recycling	CBC
+11	FBPase_h	FBPase	CBC, glycolysis	Tre synthesis	cellulose synthesis
+12	FTK_h	F6P transketolase	CBC, PPP	cellulose synthesis	CTP synthesis
+13	SBPA_h	SBP aldolase	CBC	Pyr decarboxylation	Cys synthesis
+14	SBPase_h	SBPase	CBC	TCA cycle	export
+15	STK_h	S7P transketolase	CBC, PPP	GLX cycle	fatty acid synthesis
+16	Ru5PE_h	Ru5P epimerase	CBC, PPP	oxidative phosphorylation	Gln synthesis
+17	R5PI_h	R5P isomerase	CBC, PPP	photorespiration	Glu degradation
+18	Ru5PK_h	PRK	CBC	Gly synthesis	Glu synthesis
+19	PGI_h	G6P isomerase	starch synthesis	Shikimate pathway	gluconeogenesis
+20	PGM_h	Phosphoglucomutase	starch synthesis	PRPP synthesis	Gly synthesis
+21	AGPase_h	G1P adenylyltransferase	starch synthesis	Pyr metabolism	glycolysis
+22	StS_h1	starch synthase	starch synthesis	A-CoA synthesis	GMP synthesis
+23	StS_h2	starch synthase	starch synthesis	fatty acid synthesis	His synthesis
+24	StS_h3	starch synthase	starch synthesis	THF recycling	Ile synthesis
+25	bAMY1_h	amylase	starch degradation	TRX recycling	im-/export
+26	bAMY2_h	amylase	starch degradation	ADN salvage	IMP synthesis
+27	DPE11_h	disproportionating enzyme	starch degradation	NO3 assimilation	import
+28	DPE12_h	disproportionating enzyme	starch degradation	SO4 assimilation	Leu synthesis
+29	DPE13_h	disproportionating enzyme	starch degradation	carbon fixation	light reactions
+30	DPE2_c	disproportionating enzyme	starch degradation	Ala synthesis	Lys synthesis
+31	HEXK_c	Hexokinase	starch degradation, Suc degradation	Arg synthesis	maintenance
+32	StP1_h	(starch) phosphorylase	starch degradation	UMP synthesis	Met synthesis
+33	StP21_c	(starch) phosphorylase	starch degradation	IMP synthesis	NO3 assimilation
+34	TPI_c	TP isomerase	Suc synthesis, gluconeogenesis, glycolysis	Asn synthesis	nucleotide metabolism
+35	FBPA_c	FBP aldolase	Suc synthesis, gluconeogenesis, glycolysis	Lys synthesis	oxidative phosphorylation
+36	FBPase_c	FBPase	Suc synthesis, gluconeogenesis, glycolysis	Met synthesis	Phe synthesis
+37	F6PK2_c	F6P kinase	Suc synthesis	Asp synthesis	photorespiration
+38	F26BPPh_c	F26BP phosphorylase	Suc synthesis	Cys synthesis	PPi recycling
+39	PGI_c	G6P isomerase	Suc synthesis, Suc degradation, gluconeogenesis	Glu synthesis	PPP
+40	PGM_c	Phosphoglucomutase	Suc synthesis, Suc degradation	Glu degradation	Pro degradation
+41	UGPase_c	UDPG pyrophosphorylase	Suc synthesis, Suc degradation, PPi recycling	Gln synthesis	Pro synthesis
+42	S6PS_c	S6P synthase	Suc synthesis	Gly synthesis	PRPP synthesis
+43	S6PPh_c	S6P phosphorylase	Suc synthesis	His synthesis	Pyr decarboxylation
+44	SucS_c	Suc synthase	Suc degradation	Ile synthesis	Pyr metabolism
+45	FrcFD_c	Fructofuranosidase	Suc degradation	Leu synthesis	Ser racemization
+46	FrcK_c	Fructokinase	Suc degradation	Val synthesis	Ser synthesis
+47	TPS_c	UDPG:G6P glucosyltransferase	Tre synthesis	Ile synthesis	Shikimate pathway
+48	TPP_c	Tre phosphatase	Tre synthesis	Met synthesis	SO4 assimilation
+49	CeS_c1	cellulose synthase	cellulose synthesis	Lys synthesis	starch degradation
+50	CeS_c2	cellulose synthase	cellulose synthesis	Thr synthesis	starch synthesis
+51	CeS_c3	cellulose synthase	cellulose synthesis	THF recycling	Suc degradation
+52	MalDH1_c	Mal dehydrogenase	gluconeogenesis	Phe synthesis	Suc synthesis
+53	PEPC1_c	PEP carboxylase	gluconeogenesis	Tyr synthesis	TCA cycle
+54	PEPC2_c	PEP carboxylase	gluconeogenesis	Pro synthesis	THF recycling
+55	Enol_c	Enolase	gluconeogenesis, glycolysis	Pro degradation	Thr synthesis
+56	PGAM_c	PGA mutase	gluconeogenesis, glycolysis	Ser synthesis	transport
+57	PGAK_c	PGA kinase	gluconeogenesis, glycolysis	Ser racemization	Tre synthesis
+58	GAPDH2_c	GAP dehydrogenase	gluconeogenesis, glycolysis	Trp synthesis	Trp synthesis
+59	GAPDH3_c	GAP dehydrogenase	glycolysis	Tyr synthesis	TRX recycling
+60	F6PK1_c	6-Phosphofructokinase	glycolysis	Val synthesis	Tyr synthesis
+61	F6PK1_h	6-Phosphofructokinase	glycolysis	IMP synthesis	UMP synthesis
+62	GAPDH2_h	GAP dehydrogenase	glycolysis	GMP synthesis	Val synthesis
+63	PGAM_h	PGA mutase	glycolysis	AMP synthesis	GLX cycle
+64	Enol_h	Enolase	glycolysis	UMP synthesis	
+65	PyrK_c	Pyr kinase	glycolysis	CTP synthesis	
+66	PyrK_h	Pyr kinase	glycolysis	nucleotide metabolism	
+67	PyrDH1_m	Pyr dehydrogenase	Pyr decarboxylation	transport	
+68	PyrDH2_m	Pyr dehydrogenase	Pyr decarboxylation	im-/export	
+69	DHLAcT_m	DHL acetyltransferase	Pyr decarboxylation	import	
+70	DHLDH2_m	DHL dehydrogenase	Pyr decarboxylation, TCA cycle	export	
+71	CitS_m	Cit synthase	TCA cycle, GLX cycle	maintenance	
+72	cACNDHA_m	Aconitase dehydration	TCA cycle, GLX cycle	biomass reaction	
+73	cACNHA_m	Aconitase hydration	TCA cycle, GLX cycle		
+74	iCitDHNAD_m	iCit dehydrogenase	TCA cycle		
+75	KGDH_m	KG dehydrogenase	TCA cycle		
+76	DHLST_m	DHL succinyltransferase	TCA cycle		
+77	SCACoAL_m	SCA-CoA ligase	TCA cycle		
+78	cplx2_m	SCA dehydrogenase (Q)	TCA cycle, oxidative phosphorylation		
+79	FumHA_m	Fum hydratase	TCA cycle		
+80	MalDH1_m	Mal dehydrogenase	TCA cycle, GLX cycle		
+81	cplx1_m	NADH dehydrogenase (Q)	oxidative phosphorylation		
+82	cplx3_m	Cytc reductase	oxidative phosphorylation		
+83	cplx4_m	Cytc oxidase	oxidative phosphorylation		
+84	cplx5_m	ATP synthase	oxidative phosphorylation		
+85	RBO_h	RuBisCO	photorespiration		
+86	PGP_h	PGCA phosphorylase	photorespiration		
+87	GCAO_p	GCA oxidase	photorespiration		
+88	CAT_p	Catalase	photorespiration		
+89	GGAT_p	Glu:GLX aminotransferase	photorespiration, Gly synthesis		
+90	GlyDH_m	Gly dehydrogenase	photorespiration		
+91	AMT_m	Aminomethyltransferase	photorespiration		
+92	DHLDH1_m	DHL dehydrogenase	photorespiration		
+93	GlyHMT_m	Gly hydroxymethyltransferase	photorespiration		
+94	SGAT_p	Ser:GLX aminotransferase	photorespiration, Gly synthesis		
+95	GCEADH_p	GCEA dehydrogenase	photorespiration		
+96	MalDH1_p	Mal dehydrogenase	photorespiration		
+97	GCEAK_h	GCEA kinase	photorespiration		
+98	G6PDH_h	G6P dehydrogenase	PPP		
+99	6PGL_h	6-Phosphogluconolactonase	PPP		
+100	6PGDHNAD_h	6PG dehydrogenase	PPP		
+101	6PGDHNADP_h	6PG dehydrogenase	PPP		
+102	TA_h	Transaldolase	PPP		
+103	DAHPS_h	DAHP synthase	Shikimate pathway		
+104	DHQS_h	DHQ synthase	Shikimate pathway		
+105	DHQDH_h	DHQ dehydratase	Shikimate pathway		
+106	SADH_h	SA dehydrogenase	Shikimate pathway		
+107	SAK_h	SA kinase	Shikimate pathway		
+108	EPSPS_h	EPSP synthase	Shikimate pathway		
+109	CHRS_h	CHR synthase	Shikimate pathway		
+110	R5PDPK_h	R5P diphosphokinase	PRPP synthesis		
+111	PyrPiDK_h	Pyr phosphate dikinase	Pyr metabolism		
+112	MalDH2NADP_c	Mal dehydrogenase	Pyr metabolism		
+113	MalDH2NADP_h	Mal dehydrogenase	Pyr metabolism		
+114	MalDH1_h	Mal dehydrogenase	Pyr metabolism		
+115	MalDH3_c	Mal dehydrogenase	Pyr metabolism		
+116	MalDH3_h	Mal dehydrogenase	Pyr metabolism		
+117	MalDH3_m	Mal dehydrogenase	Pyr metabolism		
+118	CitS_c	Cit synthase	Pyr metabolism		
+119	CitS_h	Cit synthase	Pyr metabolism		
+120	cACNDHA_c	Aconitase dehydration	Pyr metabolism		
+121	cACNDHA_h	Aconitase dehydration	Pyr metabolism		
+122	cACNHA_c	Aconitase hydration	Pyr metabolism		
+123	cACNHA_h	Aconitase hydration	Pyr metabolism		
+124	iCitDHNAD_c	iCit dehydrogenase	Pyr metabolism		
+125	iCitDHNADP_c	iCit dehydrogenase	Pyr metabolism		
+126	iCitDHNADP_h	iCit dehydrogenase	Pyr metabolism		
+127	iCitDHNADP_m	iCit dehydrogenase	Pyr metabolism		
+128	iCitL_c	iCit lyase	Pyr metabolism		
+129	MalS_c	Mal synthase	Pyr metabolism		
+130	ATPCitL_c	ATP-Cit lyase	A-CoA synthesis		
+131	ACoAS_h	A-CoA synthetase	A-CoA synthesis		
+132	ACoAC_h	A-CoA carboxylase	fatty acid synthesis		
+133	ACPM_h	M-CoA:ACP malonyltransferase	fatty acid synthesis		
+134	PPiase_h	inorganic PPiase	PPi recycling		
+135	PPIase_c	inorganic PPiase	PPi recycling		
+136	PPIF6PK_c	PPi-dep. Phosphofructokinase	PPi recycling		
+137	ForDH_h	For dehydrogenase	THF recycling		
+138	ForTHFL_h	For-THF ligase	THF recycling		
+139	DHFR_c	Dihydrofolate reductase	THF recycling		
+140	TRXR_c	Thioredoxin reductase	TRX recycling		
+141	ADNK_c	ADN kinase	ADN salvage		
+142	ADNN_c	ADN nucleosidase	ADN salvage		
+143	ADPRPPT_c	AD PRPP-transferase	ADN salvage		
+144	RibK_h	Ribokinase	ADN salvage		
+145	NO3 R1_c	NO3reductase	NO3 assimilation		
+146	NO3 R2_c	NO3reductase	NO3 assimilation		
+147	NO2 R_h	Fd-NO2reductase	NO3 assimilation		
+148	ATPSL_h	ATP SO 4 ylase	SO4 assimilation		
+149	APSR_h	APS reductase	SO4 assimilation		
+150	GSSGR_h	GSSG reductase	SO4 assimilation		
+151	SO3 R_h	SO3reductase	SO4 assimilation		
+152	HCO3DHA_c	HCO3 dehydratase	carbon fixation		
+153	HCO3DHA_h	HCO3 dehydratase	carbon fixation		
+154	AlaTA_h	Ala transaminase	Ala synthesis		
+155	AlaTA_m	Ala transaminase	Ala synthesis		
+156	AlaTA_p	Ala transaminase	Ala synthesis		
+157	AGluK	A-Glu kinase	Arg synthesis		
+158	AGluPR_h	A-GluP reductase	Arg synthesis		
+159	AOrnTA_h	A-Orn transaminase	Arg synthesis		
+160	AOrnAGluAcT_h	A-Orn:A-Glu acetyltransferase	Arg synthesis		
+161	CBPS_h	CBP synthase	Arg synthesis, UMP synthesis		
+162	OrnCMT_h	Orn carbamoyltransferase	Arg synthesis		
+163	ArgSCAS_h	Arg-SCA synthase	Arg synthesis		
+164	ArgSCAL_h	Arg-SCA lyase	Arg synthesis		
+165	FumHA_c	Fum hydratase	Arg synthesis, IMP synthesis, AMP synthesis		
+166	AsnS_c	Asn synthase	Asn synthesis, Lys synthesis, Met synthesis		
+167	AspAT_c	Asp aminotransferase	Asp synthesis		
+168	AspAT_h	Asp aminotransferase	Asp synthesis		
+169	AspAT_m	Asp aminotransferase	Asp synthesis		
+170	AspAT_p	Asp aminotransferase	Asp synthesis		
+171	Asnase_c	Asnase	Asp synthesis		
+172	SerAcT_c	Ser O-acetyltransferase	Cys synthesis		
+173	SerAcT_h	Ser O-acetyltransferase	Cys synthesis		
+174	SerAcT_m	Ser O-acetyltransferase	Cys synthesis		
+175	CysS_c	Cys synthase	Cys synthesis		
+176	CysS_h	Cys synthase	Cys synthesis		
+177	CysS_m	Cys synthase	Cys synthesis		
+178	GluSNADP_h	Glu synthase	Glu synthesis		
+179	GluDH3NADP_c	Glu dehydrogenase	Glu synthesis		
+180	Glnase_c	Glnase	Glu synthesis		
+181	GluSNAD_h	Glu synthase	Glu synthesis		
+182	GluSFd_h	Glu synthase (FeS-Fd)	Glu synthesis		
+183	GluDH1NAD_m	Glu dehydrogenase	Glu synthesis		
+184	GluDH1NADP_m	Glu dehydrogenase	Glu synthesis		
+185	GluDH2NAD_m	Glu dehydrogenase	Glu degradation		
+186	GluDC_c	Glu decarboxylase	Glu degradation		
+187	GABATA1_m	GABA transaminase	Glu degradation		
+188	GABATA2_m	GABA transaminase	Glu degradation		
+189	SCASeADH_m	SCA-SeA dehydrogenase	Glu degradation		
+190	GlnS_c	Gln synthetase	Gln synthesis		
+191	GlnS_h	Gln synthetase	Gln synthesis		
+192	GlnS_m	Gln synthetase	Gln synthesis		
+193	ThrA_c	Thr aldolase	Gly synthesis		
+194	ACDOxRed_c	ACD oxidoreductase	Gly synthesis		
+195	GCAO_h	GCA oxidase	Gly synthesis		
+196	CAT_h	Catalase	Gly synthesis		
+197	SGAT_h	Ser:GLX aminotransferase	Gly synthesis		
+198	GCEADH_h	GCEA dehydrogenase	Gly synthesis		
+199	GGAT_h	Glu:GLX aminotransferase	Gly synthesis		
+200	ATPPRT_h	ATP PR-transferase	His synthesis		
+201	PrATPDP_h	Pr-ATP diphosphatase	His synthesis		
+202	PrAMPCy_h	Pr-AMP cyclohydrolase	His synthesis		
+203	PAICARPI_h	P-AICAR-P isomerase	His synthesis		
+204	IGPS_h	ImGP synthase	His synthesis		
+205	IGPDA_h	ImGP dehydratase	His synthesis		
+206	HisolPTA_h	Hisol-P transaminase	His synthesis		
+207	HisolPP_h	Hisol-P phosphatase	His synthesis		
+208	HisolPDH_h	Hisol-P dehydrogenase	His synthesis		
+209	HisalPDH_h	Hisal-P dehydrogenase	His synthesis		
+210	ThrDA_h	Thr dehydratase	Ile synthesis		
+211	ALS1_h	AL synthase	Ile synthesis, Leu synthesis, Val synthesis		
+212	ALS2_h	AL synthase	Ile synthesis		
+213	KARI1_h	Ketol-acid reductoisomerase	Ile synthesis		
+214	KARI2_h	Ketol-acid reductoisomerase	Ile synthesis		
+215	DHADA1_h	DH-acid dehydratase	Ile synthesis		
+216	BAATA1_h	B.-chain-aa transaminase	Ile synthesis		
+217	ALS3_h	AL synthase	Leu synthesis, Val synthesis		
+218	KARI3_h	Ketol-acid reductoisomerase	Leu synthesis, Val synthesis		
+219	KARI4_h	Ketol-acid reductoisomerase	Leu synthesis, Val synthesis		
+220	DHADA2_h	DH-acid dehydratase	Leu synthesis, Val synthesis		
+221	2IPMS_h	2-IPM synthase	Leu synthesis		
+222	3IPMDA1_h	3-IPM dehydratase	Leu synthesis		
+223	3IPMDA2_h	3-IPM dehydratase	Leu synthesis		
+224	3IPMDH_h	3-IPM dehydrogenase	Leu synthesis		
+225	IPODC_h	spontaneous	Leu synthesis		
+226	BAATA2_h	B.-chain-aa transaminase	Leu synthesis		
+227	AspK_h	Asp kinase	Lys synthesis, Met synthesis, Thr synthesis		
+228	Asp-SeADH_h	Asp-SeA dehydrogenase	Lys synthesis		
+229	DHDS_h	DHD synthase	Lys synthesis		
+230	DHDRNAD_h	DHD reductase	Lys synthesis		
+231	DHDRNADP_h	DHD reductase	Lys synthesis		
+232	DAPAT_h	DAP aminotransferase	Lys synthesis		
+233	DAPE_h	DAP epimerase	Lys synthesis		
+234	DAPDC_h	DAP decarboxylase	Lys synthesis		
+235	HSerDHNADP_h	H-Ser dehydrogenase	Met synthesis, Thr synthesis		
+236	HSerDHNAD_h	H-Ser dehydrogenase	Met synthesis, Thr synthesis		
+237	HSerK_h	H-Ser kinase	Met synthesis, Thr synthesis		
+238	CTHS_h	CTH synthase	Met synthesis		
+239	CTHL_h	CTH beta-lyase	Met synthesis		
+240	5M-THFOR_c	5M-THF oxidoreductase	Met synthesis, THF recycling		
+241	MetS_c	Met synthase	Met synthesis		
+242	GlyHMT_c	Gly hydroxymethyltransferase	Met synthesis, THF recycling		
+243	MetAdT_h	Met adenosyltransferase	Met synthesis		
+244	HCysMT_c	H-Cys S-Met-transf.	Met synthesis		
+245	Cysase_c	aH-Cysase	Met synthesis		
+246	CHRM_c	CHR mutase	Phe synthesis, Tyr synthesis		
+247	GPAT_h	Glu:PRE aminotransferase	Phe synthesis, Tyr synthesis		
+248	AGNDA_h	AGN dehydratase	Phe synthesis		
+249	Arginase_m	Arginase	Pro synthesis		
+250	Urease_m	Urease	Pro synthesis		
+251	OrnAT_m	Orn aminotransferase	Pro synthesis		
+252	GluK_c	Glu kinase	Pro synthesis		
+253	GluK_h	Glu kinase	Pro synthesis		
+254	GluK_m	Glu kinase	Pro synthesis		
+255	GluSeADH_c	GluSeA dehydrogenase	Pro synthesis		
+256	GluSeADH_h	GluSeA dehydrogenase	Pro synthesis		
+257	GluSeADH_m	GluSeA dehydrogenase	Pro synthesis		
+258	GluSeADA_c	spontaneous	Pro synthesis		
+259	GluSeADA_h	spontaneous	Pro synthesis		
+260	GluSeADA_m	spontaneous	Pro synthesis		
+261	P5CRNAD_c	P5C reductase	Pro synthesis		
+262	ProDHNAD_m	Pro dehydrogenase	Pro degradation		
+263	ProDHNADP_m	Pro dehydrogenase	Pro degradation		
+264	P5CDHNAD_h	P5C dehydrogenase	Pro degradation		
+265	P5CDHNAD_m	P5C dehydrogenase	Pro degradation		
+266	P5CDHNADP_m	P5C dehydrogenase	Pro degradation		
+267	PGADH_h	PGA dehydrogenase	Ser synthesis		
+268	PSerAT_h	PSer aminotransferase	Ser synthesis		
+269	PSerP_h	PSer phosphatase	Ser synthesis		
+270	SerRM_c	Ser racemase	Ser racemization		
+271	ThrS_h	Threonine synthase	Thr synthesis		
+272	ANTS_h	ANT synthase	Trp synthesis		
+273	ANTPRT_h	ANT PR-transferase	Trp synthesis		
+274	PRANTI_h	PR-ANT isomerase	Trp synthesis		
+275	IndGPS_h	Ind-GP synthase	Trp synthesis		
+276	IndGPL_h	Ind-GP lyase	Trp synthesis		
+277	TrpS_h	Trp synthase	Trp synthesis		
+278	AGNDH_h	AGN dehydrogenase	Tyr synthesis		
+279	BAATA3_h	B.-chain-aa transaminase	Val synthesis		
+280	ATase_h	ATase	IMP synthesis		
+281	PRAGlyL_h	PRA-Gly ligase	IMP synthesis		
+282	GARFT_h	GAR formyltransferase	IMP synthesis		
+283	FGAMS_h	FGAM synthase	IMP synthesis		
+284	FGAMCL_h	FGAM cyclo-ligase	IMP synthesis		
+285	AIRC_h	AIR carboxylase	IMP synthesis		
+286	SAICARS_h	SAICAR synthase	IMP synthesis		
+287	DCAMPL1_h	Adenylo-SCA lyase	IMP synthesis		
+288	AICARFT_h	AICAR formyltransferase	IMP synthesis		
+289	IMPCH_h	IMP cyclohydrolase	IMP synthesis		
+290	AMPDA_c	AMP deaminase	GMP synthesis		
+291	IMPDH_c	IMP dehydrogenase	GMP synthesis		
+292	GMPS_c	GMP synthase	GMP synthesis		
+293	DCAMPS_h	Adenylo-SCA synthase	AMP synthesis		
+294	DCAMPL2_h	Adenylo-SCA lyase	AMP synthesis		
+295	AspCT_h	Asp carbamoyltransferase	UMP synthesis		
+296	DHOase_h	DHOase	UMP synthesis		
+297	DHODH_m	DHO dehydrogenase	UMP synthesis		
+298	OROPRT_c	ORO PR-transferase	UMP synthesis		
+299	OMPDC_c	OMP decarboxylase	UMP synthesis		
+300	CTPS_c	CTP synthase	CTP synthesis		
+301	AMPK_c	adenylate kinase	nucleotide metabolism		
+302	AMPK_h	adenylate kinase	nucleotide metabolism		
+303	GMPK_c	guanylate kinase	nucleotide metabolism		
+304	NMPK_c	UMP/CMP kinase	nucleotide metabolism		
+305	CTPP_c	Nucleoside-triphosphatase	nucleotide metabolism		
+306	ADPR_c	Ribonucleotide reductase	nucleotide metabolism		
+307	CDPR_c	Ribonucleotide reductase	nucleotide metabolism		
+308	GDPR_c	Ribonucleotide reductase	nucleotide metabolism		
+309	UDPR_c	Ribonucleotide reductase	nucleotide metabolism		
+310	dUTPP_c	Deoxyuridine-triphosphatase	nucleotide metabolism		
+311	dTMPS_c	Thymidylate synthase	nucleotide metabolism		
+312	dTMPK_c	Thymidine monophosphate kinase	nucleotide metabolism		
+313	GDPK_c	Nucleoside-diphosphate kinase	nucleotide metabolism		
+314	GDPK_h	Nucleoside-diphosphate kinase	nucleotide metabolism		
+315	UDPK_c	Nucleoside-diphosphate kinase	nucleotide metabolism		
+316	dADPK_c	Nucleoside-diphosphate kinase	nucleotide metabolism		
+317	dCDPK_c	Nucleoside-diphosphate kinase	nucleotide metabolism		
+318	dGDPK_c	Nucleoside-diphosphate kinase	nucleotide metabolism		
+319	dTDPK_c	Nucleoside-diphosphate kinase	nucleotide metabolism		
+320	dUDPK_c	Nucleoside-diphosphate kinase	nucleotide metabolism		
+321	Tr_SO 4	SO4diffusion	transport		
+322	Tr_NO 2	NO2transporter	transport		
+323	Tr_NTT	Nucleotide transporter	transport		
+324	Tr_AAC	ADP/ATP carrier	transport		
+325	Tr_BT11	Brittle1 protein transporter	transport		
+326	Tr_BT12	Brittle1 protein transporter	transport		
+327	Tr_BT13	Brittle1 protein transporter	transport		
+328	Tr_NDT1	NAD transporter	transport		
+329	Tr_NDT2	NAD transporter	transport		
+330	Tr_TPT1	TP/Pi translocator	transport		
+331	Tr_TPT2	TP/Pi translocator	transport		
+332	Tr_TPT3	TP/Pi translocator	transport		
+333	Tr_PPT	PEP/Pi translocator	transport		
+334	Tr_GCA1	GCA/GCEA shuffle	transport		
+335	Tr_GCEA1	GCA/GCEA shuffle	transport		
+336	Tr_GPT1	G6P exporter	transport		
+337	Tr_pGlc	Glc transporter	transport		
+338	Tr_Mex1	Mas exporter	transport		
+339	Tr_PLT5	Polyol transporter 5	transport		
+340	Tr_DIC1	Dicarboxylate carrier	transport		
+341	Tr_DIC2	Dicarboxylate carrier	transport		
+342	Tr_DIT1	Dicarboxylate transporter	transport		
+343	Tr_DIT2	Dicarboxylate transporter	transport		
+344	Tr_DTC1A	Di-/ri-carboxylate carrier	transport		
+345	Tr_DTC1B	Di-/ri-carboxylate carrier	transport		
+346	Tr_DTC1C	Di-/ri-carboxylate carrier	transport		
+347	Tr_DTC2A	Di-/ri-carboxylate carrier	transport		
+348	Tr_DTC2B	Di-/ri-carboxylate carrier	transport		
+349	Tr_DTC2C	Di-/ri-carboxylate carrier	transport		
+350	Tr_DTC3A	Di-/ri-carboxylate carrier	transport		
+351	Tr_DTC3B	Di-/ri-carboxylate carrier	transport		
+352	Tr_DTC3C	Di-/ri-carboxylate carrier	transport		
+353	Tr_DTC4A	Di-/ri-carboxylate carrier	transport		
+354	Tr_DTC4B	Di-/ri-carboxylate carrier	transport		
+355	Tr_DTC4C	Di-/ri-carboxylate carrier	transport		
+356	Tr_SFC	SCA/Fum carrier	transport		
+357	Tr_BAT11	neutral amino acid transporter	transport		
+358	Tr_BAT12	neutral amino acid transporter	transport		
+359	Tr_BAT13	neutral amino acid transporter	transport		
+360	Tr_BAT14	neutral amino acid transporter	transport		
+361	Tr_BAT15	neutral amino acid transporter	transport		
+362	Tr_BAC1	Basic amino acid carriers	transport		
+363	Tr_BAC2	Basic amino acid carriers	transport		
+364	Tr_ProU	Pro uniporter	transport		
+365	Tr_ProA	Pro/Glu antiporter	transport		
+366	Tr_P5C1	P5C exporter	transport		
+367	Tr_P5C2	P5C exporter	transport		
+368	Tr_PRPP	PRPP exporter	transport		
+369	Tr_Fum	Fum exporter	transport		
+370	Tr_HCys	H-Cys exporter	transport		
+371	Tr_ORO	ORO exporter	transport		
+372	Tr_DHO1	DHO shuffle	transport		
+373	Tr_DHO 2	DHO shuffle	transport		
+374	Tr_GlySer	Gly/Ser shuffle	transport		
+375	Tr_O 2 h	O2 diffusion	transport		
+376	Tr_O 2 m	O2 diffusion	transport		
+377	Tr_O 2 p	O2 diffusion	transport		
+378	Tr_CO 2 h	CO2diffusion	transport		
+379	Tr_CO 2 m	CO2diffusion	transport		
+380	Tr_H 2 Oh	H2 O diffusion	transport		
+381	Tr_H 2 Om	H2 O diffusion	transport		
+382	Tr_H 2 Op	H2 O diffusion	transport		
+383	Tr_Hp	Proton diffusion	transport		
+384	Tr_NH 4 1	NH4diffusion	transport		
+385	Tr_NH 4 2	NH4diffusion	transport		
+386	Tr_H 2 S1	H2 S diffusion	transport		
+387	Tr_H 2 S2	H2 S diffusion	transport		
+388	Tr_AC1	AC diffusion	transport		
+389	Tr_AC2	AC diffusion	transport		
+390	Tr_Pyr1	Pyr diffusion	transport		
+391	Tr_Pyr2	Pyr diffusion	transport		
+392	Tr_Pyr3	Pyr diffusion	transport		
+393	Tr_GCA2	GCA diffusion	transport		
+394	Tr_GCEA2	GCEA diffusion	transport		
+395	Tr_Mal	Mal diffusion	transport		
+396	Tr_OAA	OAA diffusion	transport		
+397	Tr_KG	KG diffusion	transport		
+398	Tr_Ala1	Ala diffusion	transport		
+399	Tr_Arg1	Arg diffusion	transport		
+400	Tr_Asn1	Asn diffusion	transport		
+401	Tr_Asp	Asp diffusion	transport		
+402	Tr_Cys	Cys diffusion	transport		
+403	Tr_Glu1	Glu diffusion	transport		
+404	Tr_Gln	Gln diffusion	transport		
+405	Tr_Gly	Gly diffusion	transport		
+406	Tr_His1	His diffusion	transport		
+407	Tr_Ile1	Ile diffusion	transport		
+408	Tr_Leu1	Leu diffusion	transport		
+409	Tr_Lys1	Lys diffusion	transport		
+410	Tr_Met1	Met diffusion	transport		
+411	Tr_Phe1	Phe diffusion	transport		
+412	Tr_Pro1	Pro diffusion	transport		
+413	Tr_Ser1	Ser diffusion	transport		
+414	Tr_Thr1	Thr diffusion	transport		
+415	Tr_Trp1	Trp diffusion	transport		
+416	Tr_Tyr1	Tyr diffusion	transport		
+417	Tr_Val1	Val diffusion	transport		
+418	Tr_Ala2	Ala exporter	transport		
+419	Tr_Arg2	Arg exporter	transport		
+420	Tr_Asn2	Asn importer	transport		
+421	Tr_Asn3	Asn importer	transport		
+422	Tr_Glu2	Glu importer	transport		
+423	Tr_His2	His exporter	transport		
+424	Tr_His3	His importer	transport		
+425	Tr_Ile2	Ile exporter	transport		
+426	Tr_Ile3	Ile importer	transport		
+427	Tr_Leu2	Leu exporter	transport		
+428	Tr_Leu3	Leu importer	transport		
+429	Tr_Lys2	Lys exporter	transport		
+430	Tr_Met2	Met importer	transport		
+431	Tr_Met3	Met importer	transport		
+432	Tr_Phe2	Phe exporter	transport		
+433	Tr_Phe3	Phe importer	transport		
+434	Tr_Pro2	Pro importer	transport		
+435	Tr_Ser2	Ser exporter	transport		
+436	Tr_Ser3	Ser importer	transport		
+437	Tr_Thr2	Thr exporter	transport		
+438	Tr_Thr3	Thr importer	transport		
+439	Tr_Trp2	Trp exporter	transport		
+440	Tr_Trp3	Trp importer	transport		
+441	Tr_Tyr2	Tyr exporter	transport		
+442	Tr_Tyr3	Tyr importer	transport		
+443	Tr_Val2	Val exporter	transport		
+444	Tr_Val3	Val importer	transport		
+445	Si_H	Proton sink/source	im-/export		
+446	Im_hnu	Import Photon	import		
+447	Im_CO2	Import CO2	import		
+448	Im_H2 O	Import H2 O	import		
+449	Im_Pi	Import Pi	import		
+450	Im_NO3	Import NO3	import		
+451	Im_NH4	Import NH4	import		
+452	Im_SO4	Import SO4	import		
+453	Im_H2 S	Import H 2 S	import		
+454	Ex_O2	Export O2	export		
+455	Ex_Ala_c	Export Ala	export		
+456	Ex_Ala_h	Export Ala	export		
+457	Ex_Ala_m	Export Ala	export		
+458	Ex_Ala_p	Export Ala	export		
+459	Ex_Arg_c	Export Arg	export		
+460	Ex_Arg_h	Export Arg	export		
+461	Ex_Arg_m	Export Arg	export		
+462	Ex_Arg_p	Export Arg	export		
+463	Ex_Asn_c	Export Asn	export		
+464	Ex_Asn_h	Export Asn	export		
+465	Ex_Asn_m	Export Asn	export		
+466	Ex_Asn_p	Export Asn	export		
+467	Ex_Asp_c	Export Asp	export		
+468	Ex_Asp_h	Export Asp	export		
+469	Ex_Asp_m	Export Asp	export		
+470	Ex_Asp_p	Export Asp	export		
+471	Ex_Cys_c	Export Cys	export		
+472	Ex_Cys_h	Export Cys	export		
+473	Ex_Cys_m	Export Cys	export		
+474	Ex_Cys_p	Export Cys	export		
+475	Ex_Gln_c	Export Gln	export		
+476	Ex_Gln_h	Export Gln	export		
+477	Ex_Gln_m	Export Gln	export		
+478	Ex_Gln_p	Export Gln	export		
+479	Ex_Glu_c	Export Glu	export		
+480	Ex_Glu_h	Export Glu	export		
+481	Ex_Glu_m	Export Glu	export		
+482	Ex_Glu_p	Export Glu	export		
+483	Ex_Gly_c	Export Gly	export		
+484	Ex_Gly_h	Export Gly	export		
+485	Ex_Gly_m	Export Gly	export		
+486	Ex_Gly_p	Export Gly	export		
+487	Ex_His_c	Export His	export		
+488	Ex_His_h	Export His	export		
+489	Ex_His_m	Export His	export		
+490	Ex_His_p	Export His	export		
+491	Ex_Ile_c	Export Ile	export		
+492	Ex_Ile_h	Export Ile	export		
+493	Ex_Ile_m	Export Ile	export		
+494	Ex_Ile_p	Export Ile	export		
+495	Ex_Leu_c	Export Leu	export		
+496	Ex_Leu_h	Export Leu	export		
+497	Ex_Leu_m	Export Leu	export		
+498	Ex_Leu_p	Export Leu	export		
+499	Ex_Lys_c	Export lys	export		
+500	Ex_Lys_h	Export lys	export		
+501	Ex_Lys_m	Export lys	export		
+502	Ex_Lys_p	Export lys	export		
+503	Ex_Met_c	Export Met	export		
+504	Ex_Met_h	Export Met	export		
+505	Ex_Met_m	Export Met	export		
+506	Ex_Met_p	Export Met	export		
+507	Ex_Phe_c	Export Phe	export		
+508	Ex_Phe_h	Export Phe	export		
+509	Ex_Phe_m	Export Phe	export		
+510	Ex_Phe_p	Export Phe	export		
+511	Ex_Pro_c	Export Pro	export		
+512	Ex_Pro_h	Export Pro	export		
+513	Ex_Pro_m	Export Pro	export		
+514	Ex_Pro_p	Export Pro	export		
+515	Ex_Ser_c	Export Ser	export		
+516	Ex_Ser_h	Export Ser	export		
+517	Ex_Ser_m	Export Ser	export		
+518	Ex_Ser_p	Export Ser	export		
+519	Ex_Thr_c	Export Thr	export		
+520	Ex_Thr_h	Export Thr	export		
+521	Ex_Thr_m	Export Thr	export		
+522	Ex_Thr_p	Export Thr	export		
+523	Ex_Trp_c	Export Trp	export		
+524	Ex_Trp_h	Export Trp	export		
+525	Ex_Trp_m	Export Trp	export		
+526	Ex_Trp_p	Export Trp	export		
+527	Ex_Tyr_c	Export Tyr	export		
+528	Ex_Tyr_h	Export Tyr	export		
+529	Ex_Tyr_m	Export Tyr	export		
+530	Ex_Tyr_p	Export Tyr	export		
+531	Ex_Val_c	Export Val	export		
+532	Ex_Val_h	Export Val	export		
+533	Ex_Val_m	Export Val	export		
+534	Ex_Val_p	Export Val	export		
+535	Ex_starch	Export starch	export		
+536	Ex_Glc	Export glucose	export		
+537	Ex_Frc	Export fructose	export		
+538	Ex_Suc	Export Suc	export		
+539	Ex_cellulose	Export cell wall precursor	export		
+540	Ex_Mas	Export maltose	export		
+541	Ex_MACP	Export fatty acid precursor	export		
+542	Ex_Tre	Export signaling precursor	export		
+543	NGAM_c	Maintenance	maintenance		
+544	NGAM_h	Maintenance	maintenance		
+545	NGAM_m	Maintenance	maintenance		
+546	Bio_AA	Amino acid composition	biomass reaction		
+547	Bio_CLim	Carbon limiting biomass	biomass reaction		
+548	Bio_NLim	Nitrogen limiting biomass	biomass reaction		
+549	Bio_opt	Light limiting biomass	biomass reaction		

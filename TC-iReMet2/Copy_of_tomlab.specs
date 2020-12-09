@@ -1,0 +1,15 @@
+Begin options
+
+* Major feasibility tolerance 1.0e-6
+Minor feasibility tolerance  1.0e-7
+
+Scale option 2
+Scale tolerance 0.99
+* Superbasics limit 200
+
+
+* Elastic mode No
+* Elastic weight 1.0e+4
+ 
+
+End options
