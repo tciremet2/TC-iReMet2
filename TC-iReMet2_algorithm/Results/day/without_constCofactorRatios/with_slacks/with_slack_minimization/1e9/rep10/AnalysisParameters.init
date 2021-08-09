@@ -1,0 +1,24 @@
+env_nitrogen               = 'both';  % Options: "nh4", "no3", "both"
+kNumbSDratioConstr         = 2;    % ratio constraint boundaries: mean +/- kNumbSDratioConstr * standard error
+min_mutant_BM_prod         = 0.80;  % minimum biomass production of the mutant relative to the wildtype
+with_slacks                = 1;    % options: '1' (yes) and '0' (no)
+with_slack_minimization    = 1;    % options: '1' (yes) and '0' (no)
+slack_weighting            = 0.01; % with low weighting, optmization may lead to an increased flux distance but decreased sum of absolute ratio constraint slacks
+with_qpFVA                 = 0;    % options: '1' (yes) and '0' (no)
+qpFVA_kNumbParts           = 5;    % Number of parts of examined experiments to carry out individual parts on different MATLAB instances 
+top_rxn_ratio_qpFVA        = 0.05;  % ratio of top reactions examined with qpFVA, sorted by descending average of slacks across experiments
+qpFVA_with_artificial_rxns = 1;    % options: '1' (yes) and '0' (no)
+with_constCofactorRatios   = 0;    % options: '1' (yes) and '0' (no)
+kNumbTestX_0               = 1;    % number of trials of different random initial solutions
+max_ratio                  = 22;  % largest total ratio constraint; limited to prevent badly scaled problem ( gets used to make array of 1:1e'max_ratio')
+allowed_rel_dev_linear     = 1e-3;  % allowed relative deviation of individual linear constraints in qFVA
+allowed_rel_dev_nonlinear  = 1e-3;  % allowed relative deviation of individual nonlinear constraints in qFVA
+
+experimentname             = 'e1'; % name of the used experiment, cases: 'e1', 'e2', 'e1e2'
+% maxratiostr                = '1e10'; % string version of the cutoff value, used for generating additionalinformation-output file 
+
+with_rangeBiom             = 1; % options: '1' (yes) and '0' (no) - dayspecificbiom yes no
+devrangeBiom               = 0.05; % deviation allowed from the calculated biom% of MT  
+
+kNumbRepetition            = 10; % number of reruns for each cutoff-value for evaluation of the stability of the results
+with_daySpecificObjective  = 1; % options: '1' (yes) and '0' (no)
